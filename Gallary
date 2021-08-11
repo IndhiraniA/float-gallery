@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Gallery</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+       body{
+           text-align: center;
+           margin-left:5%;
+       }
+    h1{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color:dodgerblue;
+        font-size:200%;
+    }
+    img{
+        float:left;
+       
+    }
+
+ /*for small devices  */
+      
+    @media screen and (max-width: 768px) {
+        body{
+   background: #780206;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to right, #061161, #780206);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        }
+       
+  img{
+      width:80%;
+      margin-left: 10%;
+      margin-top:5%;
+  }
+}
+
+ /* for large devices */
+@media screen and (min-width : 749px) {
+    body{
+       background: #70e1f5;  /* fallback for old browsers */
+       background: -webkit-linear-gradient(to right, #ffd194, #70e1f5);  /* Chrome 10-25, Safari 5.1-6 */
+       background: linear-gradient(to right, #ffd194, #70e1f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        }
+       
+   
+  img{
+      width:30%;
+      margin-right:2%;
+      margin-top: 5%;
+  }
+}
+    </style>
+     </head>
+     <body>
+         <h1>GALLERY</h1>
+         <div class="gall">
+         <img src="car 7 - Copy.jpg" alt="krishna" >
+         <img src="car 3 - Copy.jpg" alt="gloria" >
+         <img src="car2 - Copy.jpg" alt="stuart" >
+         <img src="car6 - Copy.jpg" alt="penguin">
+         <img src="https://www.untumble.com/blog/wp-content/uploads/2017/04/Krishna.jpg"alt="doll">
+         <img src="https://www.liveabout.com/thmb/rkFZRh7wSN8BjubVvIkrdsh2tGo=/1367x875/filters:no_upscale():max_bytes(150000):strip_icc()/powerpuff_girls-56a00bc45f9b58eba4aea61d.jpg" alt="chan">
+         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdTdWlmVEFadqdKFh3GmwOSPpuj8e7SeqqhQ&usqp=CAU"alt="house">  
+         <img src="https://lh3.googleusercontent.com/proxy/YSD01pZi3hAAa1AoAEk3j7ugnHxsXQPo9PtLQuE1rjYXsybez8yKiaSJyERzKT5fEmbs2GaRMsTURvz-ERQJmftvq-V_3SDeDlQgsLrtgY96XLU_Q9wdNiy7F96RIf3EGzouOxNvDA" alt="">
+         <img src="https://p0.pikrepo.com/preview/964/268/two-despicable-me-minions-plastic-toys.jpg" alt="">
+        </div>
+     </body>
+</html>
